@@ -63,5 +63,9 @@ git config --global user.email "your_email@example.com"
 ### 6. Installing Laravel
 
 ```bash
+composer global require laravel/installer
+```
+
+```bash
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
