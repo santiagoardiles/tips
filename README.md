@@ -1,10 +1,6 @@
-# General Tips
+# Tips
 
-## Description
-
-A collection of small useful things to know.
-
-### 1. Install Composer
+### 1. Composer
 
 ```bash
 curl -sS https://getcomposer.org/installer -o composer-setup.php
@@ -14,7 +10,7 @@ curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ```
 
-### 2. Install NPM and Node.js
+### 2. NPM and Node.js
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
@@ -29,7 +25,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install node # `node` is an alias for the latest version.
 ```
 
-### 3. Install PHP8
+### 3. PHP8
 
 ```bash
 sudo apt install software-properties-common
@@ -44,7 +40,7 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt install php8.0
 ```
 
-### 4. Install Symfony CLI
+### 4. Symfony CLI
 
 ```bash
 wget https://get.symfony.com/cli/installer -O - | bash
@@ -64,7 +60,7 @@ git config --global user.name "Your name here"
 git config --global user.email "your_email@example.com"
 ```
 
-### 6. Installing Laravel
+### 6. Laravel
 
 ```bash
 composer global require laravel/installer
