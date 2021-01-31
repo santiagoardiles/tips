@@ -69,3 +69,9 @@ composer global require laravel/installer
 ```bash
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 ```
+
+### 7. Rust
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
